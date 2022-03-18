@@ -1,6 +1,6 @@
 # SOA_grpc
 
-Ссылка на DockerHub: 
+Ссылка на DockerHub: https://hub.docker.com/repository/docker/adakimov/grpc
 
 ## Тест
 
