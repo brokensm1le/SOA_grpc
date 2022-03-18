@@ -1,5 +1,10 @@
 # SOA_grpc
 
+
+Ссылка на видео с работающей игрой: https://youtu.be/ttn5IPHbm-Y
+
+
+
 Ссылка на DockerHub: https://hub.docker.com/repository/docker/adakimov/grpc
 
 ## Тест
