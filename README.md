@@ -1,6 +1,6 @@
 # SOA_grpc
 
-Ссылка на DockerHub: https://hub.docker.com/repository/docker/adakimov/sockets
+Ссылка на DockerHub: 
 
 ## Тест
 
