@@ -1,0 +1,32 @@
+syntax = "proto3";
+
+package grpc;
+
+message Empty {}
+
+// I called it Note because message Message sounds complicated
+message Note {
+  bytes message = 1;
+  string name = 2;
+}
+
+message Notename {
+  string name = 1;
+}
+
+message ServerRequest {
+  string name = 1;
+  string actv = 2;
+}
+
+message ServerResponse {
+  string ans = 1;
+  string msg = 2;
+}
+
+
+service ChatServer {
+  rpc ServerStream (ServerRequest) returns (ServerResponse);
+  rpc ChatStream (Notename) returns (stream Note);
+  rpc SendNote (Note) returns (Empty);
+}
